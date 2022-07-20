@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Users.Infrastructure.Persistence</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="Mappers" />
+        <Folder Include="Repositories" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Dramankadeh.Core.Persistence.Ef\Dramankadeh.Core.Persistence.Ef.csproj" />
+        <ProjectReference Include="..\..\Dramankadeh.Core\Dramankadeh.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    </ItemGroup>
+
+</Project>

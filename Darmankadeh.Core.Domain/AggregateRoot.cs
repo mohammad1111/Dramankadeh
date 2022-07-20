@@ -6,14 +6,16 @@ namespace Darmankadeh.Core.Domain;
 
 public abstract class AggregateRoot : Entity, IAggregateRoot
 {
-    [NotMapped] public List<DomainEvent> Changes { get; set; } = new();
     protected AggregateRoot()
     {
     }
-    protected AggregateRoot(Guid  id)
+
+    protected AggregateRoot(Guid id)
     {
         Id = id;
     }
+
+    [NotMapped] public List<DomainEvent> Changes { get; set; } = new();
 
     public void AddEvents([NotNull] IEnumerable<DomainEvent> events)
     {

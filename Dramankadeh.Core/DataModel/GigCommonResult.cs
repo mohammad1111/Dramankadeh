@@ -1,6 +1,6 @@
 ﻿namespace Dramankadeh.Core.DataModel;
 
-public class GigCommonResultBase
+public class CommonResultBase
 {
     public string DeveloperMessage { get; set; }
 
@@ -8,7 +8,7 @@ public class GigCommonResultBase
 
     public Guid Id { get; set; }
 
-    public static implicit operator bool(GigCommonResultBase result)
+    public static implicit operator bool(CommonResultBase result)
     {
         return !result.HasError;
     }

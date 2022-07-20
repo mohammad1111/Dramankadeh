@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\RiderProjects\\Dramankadeh\\Dramankadeh\\Dramankadeh.csproj": {}
+    "E:\\Gits\\Dramankadeh\\Dramankadeh\\Dramankadeh.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\RiderProjects\\Dramankadeh\\Dramankadeh\\Dramankadeh.csproj": {
+    "E:\\Gits\\Dramankadeh\\Dramankadeh\\Dramankadeh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\RiderProjects\\Dramankadeh\\Dramankadeh\\Dramankadeh.csproj",
+        "projectUniqueName": "E:\\Gits\\Dramankadeh\\Dramankadeh\\Dramankadeh.csproj",
         "projectName": "Dramankadeh",
-        "projectPath": "C:\\Users\\admin\\RiderProjects\\Dramankadeh\\Dramankadeh\\Dramankadeh.csproj",
+        "projectPath": "E:\\Gits\\Dramankadeh\\Dramankadeh\\Dramankadeh.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\RiderProjects\\Dramankadeh\\Dramankadeh\\obj\\",
+        "outputPath": "E:\\Gits\\Dramankadeh\\Dramankadeh\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

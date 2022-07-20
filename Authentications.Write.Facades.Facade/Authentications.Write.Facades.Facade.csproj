@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Authentications.Write.Applications.Application.Contract\Authentications.Write.Applications.Application.Contract.csproj" />
+      <ProjectReference Include="..\Authentications.Write.Domains.Domain\Authentications.Write.Domains.Domain.csproj" >
+          <Aliases>DomainRefrence</Aliases>
+      </ProjectReference>
+      <ProjectReference Include="..\Authentications.Write.Facades.Facade.Contract\Authentications.Write.Facades.Facade.Contract.csproj" />
+      <ProjectReference Include="..\Dramankadeh.Core.Facade\Dramankadeh.Core.Facade.csproj" />
+      <ProjectReference Include="..\ShareProjects\Dramankadeh.ShareProjects.ShareModel\Dramankadeh.ShareProjects.ShareModel.csproj" >
+          <Aliases>ShareRefrence</Aliases>
+      </ProjectReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit.Abstractions" Version="8.0.5" />
+    </ItemGroup>
+
+</Project>

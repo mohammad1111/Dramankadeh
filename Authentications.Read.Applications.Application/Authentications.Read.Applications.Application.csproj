@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Authentications.Read.Applications.Application.Contract\Authentications.Read.Applications.Application.Contract.csproj" />
+      <ProjectReference Include="..\Authentications.Read.ReadModel\Authentications.Read.ReadModel.csproj" />
+    </ItemGroup>
+
+</Project>

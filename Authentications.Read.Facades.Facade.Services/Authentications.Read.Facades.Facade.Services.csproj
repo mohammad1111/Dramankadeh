@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Authentications.Read.Facades.Facade.Services.Contract\Authentications.Read.Facades.Facade.Services.Contract.csproj" />
+      <ProjectReference Include="..\Dramankadeh.Core.Facade.Read\Dramankadeh.Core.Facade.Read.csproj" />
+      <ProjectReference Include="..\Authentications.Read.ReadModel\Authentications.Read.ReadModel.csproj" />
+      <ProjectReference Include="..\ShareProjects\Dramankadeh.ShareProjects.ShareModel\Dramankadeh.ShareProjects.ShareModel.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="8.0.5" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.5" />
+    </ItemGroup>
+
+</Project>

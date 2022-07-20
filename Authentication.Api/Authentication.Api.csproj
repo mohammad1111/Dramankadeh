@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Authentications.Infrastructure.Persistence\Authentications.Infrastructure.Persistence.csproj" />
+      <ProjectReference Include="..\Authentications.Read.Applications.Application\Authentications.Read.Applications.Application.csproj" />
+      <ProjectReference Include="..\Authentications.Read.Facades.Facade.Services.Contract\Authentications.Read.Facades.Facade.Services.Contract.csproj" />
+      <ProjectReference Include="..\Authentications.Read.Facades.Facade.Services\Authentications.Read.Facades.Facade.Services.csproj" />
+      <ProjectReference Include="..\Authentications.Write.Applications.Application.Contract\Authentications.Write.Applications.Application.Contract.csproj" />
+      <ProjectReference Include="..\Authentications.Write.Applications.Application\Authentications.Write.Applications.Application.csproj" />
+      <ProjectReference Include="..\Authentications.Write.Domains.Domain.Test\Authentications.Write.Domains.Domain.Test.csproj" />
+      <ProjectReference Include="..\Authentications.Write.Domains.Domain\Authentications.Write.Domains.Domain.csproj" />
+      <ProjectReference Include="..\Authentications.Write.Facades.Facade.Contract\Authentications.Write.Facades.Facade.Contract.csproj" />
+      <ProjectReference Include="..\Authentications.Write.Facades.Facade\Authentications.Write.Facades.Facade.csproj" />
+    </ItemGroup>
+
+</Project>

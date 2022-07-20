@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Users.Write.Facades.Facade</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\ShareProjects\Dramankadeh.ShareProjects.ShareModel\Dramankadeh.ShareProjects.ShareModel.csproj" />
+      <ProjectReference Include="..\Users.Write.Applications.Application.Contract\Users.Write.Applications.Application.Contract.csproj" />
+      <ProjectReference Include="..\Users.Write.Domains.Domain\Users.Write.Domains.Domain.csproj" />
+      <ProjectReference Include="..\Users.Write.Facades.Facade.Contract\Users.Write.Facades.Facade.Contract.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="8.0.5" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.5" />
+    </ItemGroup>
+
+</Project>

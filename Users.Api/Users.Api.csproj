@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="6.0.7" />
+        <PackageReference Include="Polly" Version="7.2.3" />
+        <PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Users\Users.Infrastructure.Persistence\Users.Infrastructure.Persistence.csproj" />
+      <ProjectReference Include="..\Users\Users.Read.Applications.Application.Contract\Users.Read.Applications.Application.Contract.csproj" />
+      <ProjectReference Include="..\Users\Users.Read.Applications.Application\Users.Read.Applications.Application.csproj" />
+      <ProjectReference Include="..\Users\Users.Read.Facades.Facade.Services.Contract\Users.Read.Facades.Facade.Services.Contract.csproj" />
+      <ProjectReference Include="..\Users\Users.Read.Facades.Facade.Services\Users.Read.Facades.Facade.Services.csproj" />
+      <ProjectReference Include="..\Users\Users.Read.ReadModel\Users.Read.ReadModel.csproj" />
+      <ProjectReference Include="..\Users\Users.Write.Applications.Application.Contract\Users.Write.Applications.Application.Contract.csproj" />
+      <ProjectReference Include="..\Users\Users.Write.Applications.Application\Users.Write.Applications.Application.csproj" />
+      <ProjectReference Include="..\Users\Users.Write.Domains.Domain\Users.Write.Domains.Domain.csproj" />
+      <ProjectReference Include="..\Users\Users.Write.Facades.Facade.Contract\Users.Write.Facades.Facade.Contract.csproj" />
+      <ProjectReference Include="..\Users\Users.Write.Facades.Facade\Users.Write.Facades.Facade.csproj" />
+    </ItemGroup>
+
+</Project>

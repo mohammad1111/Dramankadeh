@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Users.Write.Applications.Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Dramankadeh.Core.Application\Dramankadeh.Core.Application.csproj" />
+      <ProjectReference Include="..\Users.Write.Applications.Application.Contract\Users.Write.Applications.Application.Contract.csproj" />
+      <ProjectReference Include="..\Users.Write.Domains.Domain\Users.Write.Domains.Domain.csproj" />
+      <ProjectReference Include="..\Users.Write.Applications.Application.Contract\Users.Write.Applications.Application.Contract.csproj" />
+      <ProjectReference Include="..\Users.Write.Domains.Domain\Users.Write.Domains.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
